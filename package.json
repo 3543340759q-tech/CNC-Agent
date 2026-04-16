@@ -1,0 +1,7 @@
+{
+  "name": "cnc-master",
+  "dependencies": {
+    "@hermes-agent/core": "latest"
+  },
+  "scripts": { "start": "hermes start" }
+}
