@@ -1,0 +1,7 @@
+# 构建镜像
+docker build -t cnc-agent:latest .
+
+# 运行容器
+docker run -p 8000:8000 \
+  -e DEEPSEEK_API_KEY=your_key_here \
+  cnc-agent:latest
