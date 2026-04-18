@@ -1,7 +1,13 @@
 {
-  "name": "cnc-master",
+  "name": "cnc-master-agent",
+  "version": "1.0.0",
+  "description": "CNC Expert Agent for Birthday Project",
+  "main": "index.js",
   "dependencies": {
-    "@hermes-agent/core": "latest"
+    "hermes-ai": "latest",
+    "express": "^4.18.2"
   },
-  "scripts": { "start": "hermes start" }
+  "scripts": {
+    "start": "node index.js"
+  }
 }
