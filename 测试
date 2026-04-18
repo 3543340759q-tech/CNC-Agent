@@ -1,0 +1,8 @@
+# 运行所有测试
+pytest
+
+# 运行特定测试
+pytest tests/test_simulator.py
+
+# 生成覆盖率报告
+pytest --cov=agents --cov=simulation --cov=utils
