@@ -1,5 +1,5 @@
 {
-  "provider": "openai",
+  "provider": "openai"
   "api_key": "{{process.env.DEEPSEEK_API_KEY}}"
   "base_url": "https://api.siliconflow.cn/v1"
   "model": "deepseek-ai/DeepSeek-V3"
