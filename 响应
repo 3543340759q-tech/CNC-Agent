@@ -1,0 +1,16 @@
+{
+  "success": true
+  "status": "success"
+  "data": {
+    "final_code": "G代码"
+    "validation_result": {
+      "success": true
+      "metrics": {
+        "estimated_cutting_time_sec": 125.5
+        "cutting_distance": 450.2
+      }
+    }
+    "iterations": 1
+  }
+  "report": "详细报告..."
+}
