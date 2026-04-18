@@ -1,0 +1,13 @@
+# 铣削矩形
+curl -X POST http://localhost:8000/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "requirement": "用3号立铣刀在铝板上铣削100x150mm、深度5mm的矩形",
+    "verbose": true
+  }'
+
+# 获取对话历史
+curl http://localhost:8000/api/history
+
+# 重置对话
+curl -X POST http://localhost:8000/api/reset
