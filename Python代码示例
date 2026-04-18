@@ -1,1 +1,15 @@
+from agents.cnc_agent import CNCAgentWithSelfValidation
 
+agent = CNCAgentWithSelfValidation()
+
+result = agent.process_request(
+    requirement="钻10个Φ6的孔，排列成2x5阵列"
+    verbose=True
+)
+
+if result["success"]:
+    print("✓ 验证通过")
+    print(result["final_code"])
+else:
+    print("✗ 验证失败")
+    print(result["validation_result"]["errors"])
